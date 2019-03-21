@@ -1,0 +1,744 @@
+*{	
+	margin: 0;
+
+	padding: 0;
+}
+body,html{
+	height: 100%;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+img[alt="www.000webhost.com"]
+{
+	display:none;
+	visibility:hidden;}
+	
+@media screen and (min-width: 1366px){
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 1346px;
+		height: 750px;
+		margin:auto;
+		position: relative;
+	}
+		div#navMobileButton{
+		
+		display: none;
+	}
+
+	ul#ulNavMobile{
+		
+		display: none;
+	}
+	ul#ulNavMobile li{
+		display: none;	
+
+	}
+	nav{
+		height: 80px;
+		width: 100%;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 50px;
+	}
+	div#navContainer{
+		width: 1346px;
+		height: 80px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		font-family: 'Indie Flower', cursive;
+		color: rgba(0,0,0,0.5);
+		font-size: 32px;
+		color:white;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+	div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 14px 8px;
+		
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+}
+
+
+
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 940px;
+		height: 750px;
+		margin:auto;
+		position: relative;
+	}
+	div#navMobileButton{
+		
+		display: none;
+	}
+
+	ul#ulNavMobile{
+		
+		display: none;
+	}
+	ul#ulNavMobile li{
+		display: none;	
+
+	}
+	nav{
+		height: 80px;
+		width: 100%;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 50px;
+	}
+	div#navContainer{
+		width: 940px;
+		height: 80px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 12px 6px;
+		
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+}
+
+
+@media screen and (min-width:720px) and (max-width: 960px){
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 700px;
+		height: 520px;
+		margin:auto;
+		position: relative;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 700px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		text-decoration: none;
+		
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	/*
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 60px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 8px 8px;
+		transition: 700ms;
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}*/
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 700px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 100%;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+}
+
+@media screen and (min-width:480px) and (max-width: 720px){
+
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 460px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 460px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	/*
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 60px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 8px 8px;
+		transition: 700ms;
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}*/
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 460px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 460px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+
+
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 300px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 300px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+	color: rgba(0,0,0,0.9);
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	color:white;
+	line-height: 60px;
+	display: inline;
+	float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	/*
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 60px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 8px 8px;
+		transition: 700ms;
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}*/
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 300px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 300px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+}
+
+@media screen and (min-width:260px) and (max-width: 320px){
+
+
+	header#mainHeader{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:  url(..//photo//code-coding-computer-574070.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	}
+
+	div#headerContainer{
+		width: 240px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 240px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 25px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	/*
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 60px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 8px 8px;
+		transition: 700ms;
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}*/
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 240px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+	
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 240px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+
+
+	#copyright{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+
+	}
+	#copy{
+		font-family: sans-serif;
+		text-align: center;
+	}	
+}

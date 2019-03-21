@@ -1,0 +1,1279 @@
+*{	
+	margin: 0;
+	
+	padding: 0;
+}
+body,html{
+	height: 100%;
+	background:#F3F3F3;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+img[alt="www.000webhost.com"]
+{
+	display:none;
+	visibility:hidden;}
+	
+@media screen and (min-width: 1366px){
+	
+
+	
+
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 450px;
+		position: relative;
+		top: 150px;
+		
+	}
+	
+
+	div#headerContainer{
+		width: 1346px;
+		height: 610px;
+		margin:auto;
+		
+		position: relative;
+		
+	}
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+	
+		color:  rgba(0,0,0,0.6);
+		
+		text-align: center;
+		font-size: 60px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 32px;
+	}
+		div#navMobileButton{
+		
+		display: none;
+	}
+
+	ul#ulNavMobile{
+		
+		display: none;
+	}
+	ul#ulNavMobile li{
+		display: none;	
+
+	}
+	nav{
+		height: 80px;
+		width: 100%;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 50px;
+	}
+	div#navContainer{
+		width: 1346px;
+		height: 80px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		font-family: 'Indie Flower', cursive;
+		color: rgba(0,0,0,0.5);
+		font-size: 32px;
+		color:white;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+	div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		text-decoration: none;
+
+		font-family: 'Dosis', sans-serif;
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 14px 8px;
+		
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}
+	
+	div#blog{
+		width: 1346px;
+		height: auto;
+
+		margin:auto;
+		
+	}
+	div#inBlog1{
+		height: 400px;
+		width: 400px;
+		margin-top: 41px;
+		margin-left:  36px;
+		position: relative;
+		float: left;
+		background-color: #F3F3F3;
+	}
+	div#blogPhoto img{
+		width: 400px;
+		height: 200px;
+	}
+	span#blogKonu{
+	float: left;
+	font-size: 17px;	
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 17px;
+	}
+	div#blog p {
+		font-size: 17px;
+	}
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px
+	}
+
+	#blogDevam a {
+	padding: 14px 14px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	
+	}
+
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 150px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 90px;	
+	}
+	
+}
+
+
+
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+
+
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 450px;
+		position: relative;
+		top: 150px;
+	}
+	div#headerContainer{
+		width: 940px;
+		height: 640px;
+		margin:auto;
+		position: relative;
+	}
+
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+		color:  rgba(0,0,0,0.6);	
+		text-align: center;
+		font-size: 42px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 32px;
+	}
+	div#navMobileButton{
+		
+		display: none;
+	}
+
+	ul#ulNavMobile{
+		
+		display: none;
+	}
+	ul#ulNavMobile li{
+		display: none;	
+
+	}
+	nav{
+		height: 80px;
+		width: 100%;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 50px;
+	}
+	div#navContainer{
+		width: 940px;
+		height: 80px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+	ul#ulNavRight li a {
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		text-decoration: none;
+		
+		
+		font-style: italic;
+		border-radius: 10px;
+		transition: 700ms;
+		padding: 12px 6px;
+		
+	}
+	ul#ulNavRight li a:hover {
+		color:#95a5a6;
+		background-color: white;
+	}
+
+	div#blog{
+		width: 960px;
+		height: auto;
+		margin:auto;
+		
+	}
+	div#inBlog1{
+
+		height: 500px;
+		width: 280px;
+		margin-top: 11px;
+		margin-left:  30px;
+		position: relative;
+		float: left;
+		background-color: #F3F3F3;
+	}
+	div#blogPhoto img{
+		width: 280px;
+		height: 200px;
+	}
+	span#blogKonu{
+	float: left;
+	font-size: 17px;	
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 17px;
+	}
+	div#blog p {
+		font-size: 17px;
+	}
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px
+	}
+
+	#blogDevam a {
+	padding: 14px 14px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	}
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 100px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;	
+	}
+	
+}
+
+
+@media screen and (min-width:720px) and (max-width: 960px){
+
+
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 350px;
+		position: relative;
+		top: 150px;
+	}
+
+	div#headerContainer{
+		width: 700px;
+		height: 520px;
+		margin:auto;
+		position: relative;
+	}
+	
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+		color:  rgba(0,0,0,0.6);	
+		text-align: center;
+		font-size: 42px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 32px;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 700px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		text-decoration: none;
+		
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+	ul#ulNavMobile{
+		width: 700px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 100%;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+
+	
+	div#blog{
+		width: 700px;
+		height: auto;
+
+		margin:auto;
+		
+	}
+	div#inBlog1{
+		height: 400px;
+		width: 210px;
+		margin-top: 11px;
+		margin-left:  20px;
+		position: relative;
+		float: left;
+		background-color: #F3F3F3;
+	}
+
+	div#blogPhoto img{
+		width: 210px;
+		height: 150px;
+	}
+
+	span#blogKonu{
+	float: left;
+	font-size: 15px;	
+	}
+
+	div#blog h2 {
+		font-size: 17px;
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 15px;
+	}
+
+	div#blog p {
+		font-size: 15px;
+	}
+
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px;
+	}
+
+	#blogDevam a {
+	padding: 10px 10px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	font-size: 14px;
+	
+	}
+	
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 100px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;	
+	}
+}
+
+@media screen and (min-width:480px) and (max-width: 720px){
+
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 300px;
+		position: relative;
+		top: 150px;
+	}
+	div#headerContainer{
+		width: 460px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+		color:  rgba(0,0,0,0.6);	
+		text-align: center;
+		font-size: 42px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 23px;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 460px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+	
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+	ul#ulNavMobile{
+		width: 460px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 460px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+	div#blog{
+		width: 460px;
+		height: auto;
+
+		margin:auto;
+		
+	}
+	div#inBlog1{
+		height: 480px;
+		width: 210px;
+		margin-top: 11px;
+		margin-left:  20px;
+		position: relative;
+		float: left;
+		background-color: #F3F3F3;
+	}
+
+	div#blogPhoto img{
+		width: 210px;
+		height: 150px;
+	}
+
+	span#blogKonu{
+	float: left;
+	font-size: 15px;	
+	}
+
+	div#blog h2 {
+		font-size: 17px;
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 15px;
+	}
+
+	div#blog p {
+		font-size: 15px;
+	}
+
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px;
+	}
+
+	#blogDevam a {
+	padding: 10px 10px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	font-size: 14px;
+	
+	}
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 100px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;	
+	}
+
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 300px;
+		position: relative;
+		top: 150px;
+	}
+
+	div#headerContainer{
+		width: 300px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 275px;
+		position: relative;
+		top: 150px;
+	}
+	
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+		color:  rgba(0,0,0,0.6);	
+		text-align: center;
+		font-size: 38px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 23px;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 300px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 25px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 300px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 300px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+	div#blog{
+		width: auto;
+		height: auto;
+
+		margin:auto;
+		
+	}
+	div#inBlog1{
+		height: 400px;
+		width: 210px;
+		margin-top: 11px;
+		margin:auto;
+		position: relative;
+		
+		background-color: #F3F3F3;
+		
+	}
+
+	div#blogPhoto img{
+		width: 210px;
+		height: 150px;
+	}
+
+	span#blogKonu{
+	float: left;
+	font-size: 15px;	
+	}
+
+	div#blog h2 {
+		font-size: 17px;
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 15px;
+	}
+
+	div#blog p {
+		font-size: 15px;
+	}
+
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px;
+	}
+
+	#blogDevam a {
+	padding: 10px 10px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	font-size: 14px;
+	
+	}
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 100px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;	
+	}
+}
+
+@media screen and (min-width:240px) and (max-width: 320px){
+
+
+	div#headerImage2{
+	background-color: #A0A0A0;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: 150px;
+	}
+
+	div#headerContainer{
+		width: 240px;
+		height: 510px;
+		margin:auto;
+		position: relative;
+	}
+	div#headerImage2{
+		background-color: #A0A0A0;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 275px;
+		position: relative;
+		top: 150px;
+	}
+	
+	div#BlogFont{
+		position: relative;	
+		margin: auto;
+		top: 80px;
+		
+	} 
+	div#BlogFont h1{
+		color:  rgba(0,0,0,0.6);	
+		text-align: center;
+		font-size: 38px;
+	}
+	div#BlogFont p {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		font-size: 23px;
+	}
+	nav{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background-color:  rgba(0,0,0,0.34);
+		top: 40px;
+	}
+	div#navContainer{
+		width: 240px;
+		height: 60px;
+		margin: auto;
+		position: relative;
+	}
+	div#navLogo{
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+		font-size: 25px;
+		color:white;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+		div>a#isimLogo {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+		font-family: 'Indie Flower', cursive;
+	}
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+		
+	
+	/*Nav Mobile*/
+
+	div#navMobileButton{
+		width: 40px;
+		height: 40px;
+		background: url(..//photo//button.png);
+		float: right;
+		position: relative;
+		margin-top: 10px;
+		
+	}
+
+
+
+	ul#ulNavMobile{
+		width: 240px;
+		position: absolute;
+		top: 60px;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+	}
+	ul#ulNavMobile li{
+		
+		text-align: center;
+	
+		border-top: 1px solid #ffffff;
+
+	}
+	
+	ul#ulNavMobile li a {
+		width: 240px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+	ul#ulNavMobile li a:hover{
+		color: rgba(0,0,0,0.5);
+		background-color: #ffffff;
+	}
+
+		div#blog{
+		width: auto;
+		height: auto;
+
+		margin:auto;
+		
+	}
+	div#inBlog1{
+		height: 400px;
+		width: 210px;
+		margin-top: 11px;
+		margin:auto;
+		position: relative;
+		
+		background-color: #F3F3F3;
+		
+	}
+
+	div#blogPhoto img{
+		width: 210px;
+		height: 150px;
+	}
+
+	span#blogKonu{
+	float: left;
+	font-size: 15px;	
+	}
+
+	div#blog h2 {
+		font-size: 17px;
+	}
+	span#blogTarih{
+	float: right;
+	font-size: 15px;
+	}
+
+	div#blog p {
+		font-size: 15px;
+	}
+
+	#blogDevam {
+	line-height: 80px;
+	margin-left: 20px;
+	float:right;
+	border-radius:5px;
+	}
+
+	#blogDevam a {
+	padding: 10px 10px;
+	color:white;
+	background-color: #95a5a6;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	border-radius: 10px;
+	font-size: 14px;
+	
+	}
+	footer {
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright{
+			
+		width: 100%;
+		margin-top: 100px;
+		/*background-color: #A0A0A0;*/
+		font-size: 14px;
+		font-family: sans-serif;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+
+	.aktif {
+		border:1px solid #ddd;
+		margin:5px;
+		padding:10px;
+		background-color: lightblue;
+	
+	}
+	.sayfa{
+		border:1px solid #ddd;
+		margin:5px;
+		padding: 5px;
+		background-color: #A0A0A0;
+	}
+	.sayfa a {
+		text-align: center;
+	}
+	#sayfalama{
+		position: relative;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;	
+	}
+
+
+}
